@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
 	public void sayHello(View view) {
 		mTextView.setText("Hello, "+mEditText.getText().toString()+"!");
+		Toast.makeText(MainActivity.this, "This is uncommitted change", Toast.LENGTH_SHORT).show();
 	}
 
 }
